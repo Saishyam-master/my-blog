@@ -6,6 +6,7 @@ body {
     background: linear-gradient(135deg, #a2e2f8 0%, #75bde0 100%);
     color: #3b7097;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Navbar styles */
@@ -59,33 +60,30 @@ body {
 .container {
     width: 100%;
     max-width: 600px;
-    min-height: 70vh;
-    margin: 3.5rem auto 0 auto;
+    min-height: 90vh;
+    margin: 2.5rem auto 2.5rem auto;
     border-bottom: 2px solid #75bde0;
     color: #3b7097;
     border-radius: 1.2rem;
     box-shadow: 0 4px 24px rgba(59,112,151,0.10);
-    padding: 2.5rem 1.5rem;
+    padding: 2.5rem 1.5rem 4rem 1.5rem;
     background: rgba(255,255,255,0.85);
     backdrop-filter: blur(6px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     box-sizing: border-box;
 }
 
 .section-title {
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     color: #4a8db7;
-    margin-bottom: 1.2rem;
-    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
     width: 100%;
-}
-.center-title {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
 }
 
 .projects, .blogs {
