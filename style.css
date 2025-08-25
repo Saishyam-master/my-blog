@@ -58,14 +58,14 @@ body {
 
 .container {
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     min-height: 70vh;
     margin: 3.5rem auto 0 auto;
     border-bottom: 2px solid #75bde0;
     color: #3b7097;
     border-radius: 1.2rem;
     box-shadow: 0 4px 24px rgba(59,112,151,0.10);
-    padding: 3.5rem 2rem;
+    padding: 2.5rem 1.5rem;
     background: rgba(255,255,255,0.85);
     backdrop-filter: blur(6px);
     display: flex;
