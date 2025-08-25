@@ -3,18 +3,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #f8fafc 0%, #e0e7ff 100%);
-    color: #22223b;
+    background: linear-gradient(135deg, #3b7097 0%, #4a8db7 60%, #75bde0 100%);
+    color: #a2e2f8;
+    min-height: 100vh;
 }
 
 /* Navbar styles */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(79,70,229,0.08);
-    padding: 1.2rem 2rem;
+    width: 100%;
+    background: #23232a;
+    height: 38px;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -37,12 +35,12 @@ body {
 }
 .nav-links a {
     text-decoration: none;
-    color: #22223b;
+    color: #18181b;
     font-weight: 600;
     font-size: 1.1rem;
     padding: 0.3rem 0.7rem;
-    border-radius: 0.4rem;
-    transition: background 0.2s, color 0.2s;
+    text-decoration: none;
+    color: #a2e2f8;
 }
 .nav-links a:hover, .nav-links a:focus {
     background: #4f46e5;
@@ -51,8 +49,8 @@ body {
 
 .container {
     max-width: 700px;
-    margin: 2.5rem auto;
-    background: #fff;
+    border-bottom: 2px solid #75bde0;
+    color: #75bde0;
     border-radius: 1.2rem;
     box-shadow: 0 4px 24px rgba(79,70,229,0.07);
     padding: 2.5rem 2rem;
@@ -61,7 +59,7 @@ body {
 
 .section-title {
     font-size: 1.5rem;
-    color: #4f46e5;
+    color: #a5b4fc;
     margin-bottom: 1.2rem;
     font-weight: 600;
 }
@@ -71,8 +69,8 @@ body {
 }
 
 .project, .blog {
-    background: #f1f5f9;
-    border-radius: 0.7rem;
+    background: #18181b;
+    background: #3b7097;
     padding: 1.2rem 1rem;
     margin-bottom: 1.2rem;
     box-shadow: 0 1px 4px rgba(79,70,229,0.04);
