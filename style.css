@@ -80,6 +80,12 @@ body {
     color: #4a8db7;
     margin-bottom: 1.2rem;
     font-weight: 600;
+    width: 100%;
+}
+.center-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .projects, .blogs {
