@@ -1,0 +1,14 @@
+[
+  {"title":"How to Build a Blog","slug":"2025-08-24-sample","date":"2025-08-24","tags":["tutorial"],"excerpt":"One-line teaser for building a blog...","image":"/assets/images/post-1.jpg"},
+  {"title":"Design Systems 101","slug":"2025-08-23-design","date":"2025-08-23","tags":["design"],"excerpt":"Intro to design systems for devs.","image":"/assets/images/post-2.jpg"},
+  {"title":"Accessibility Matters","slug":"2025-08-22-accessibility","date":"2025-08-22","tags":["a11y"],"excerpt":"Why accessibility is essential.","image":"/assets/images/post-3.jpg"},
+  {"title":"Performance Tips","slug":"2025-08-21-performance","date":"2025-08-21","tags":["perf"],"excerpt":"Speed up your site with these tips.","image":"/assets/images/post-4.jpg"},
+  {"title":"Dark Mode in CSS","slug":"2025-08-20-darkmode","date":"2025-08-20","tags":["css"],"excerpt":"Implementing dark mode the right way.","image":"/assets/images/post-5.jpg"},
+  {"title":"SEO for Beginners","slug":"2025-08-19-seo","date":"2025-08-19","tags":["seo"],"excerpt":"Get started with SEO basics.","image":"/assets/images/post-6.jpg"},
+  {"title":"GitHub Pages Guide","slug":"2025-08-18-ghpages","date":"2025-08-18","tags":["github"],"excerpt":"How to deploy with GitHub Pages.","image":"/assets/images/post-1.jpg"},
+  {"title":"Responsive Layouts","slug":"2025-08-17-responsive","date":"2025-08-17","tags":["css"],"excerpt":"Make your site look great everywhere.","image":"/assets/images/post-2.jpg"},
+  {"title":"Web Animations","slug":"2025-08-16-animations","date":"2025-08-16","tags":["js"],"excerpt":"Add life to your UI with animation.","image":"/assets/images/post-3.jpg"},
+  {"title":"Writing Good Docs","slug":"2025-08-15-docs","date":"2025-08-15","tags":["writing"],"excerpt":"Tips for better documentation.","image":"/assets/images/post-4.jpg"},
+  {"title":"Open Source 101","slug":"2025-08-14-oss","date":"2025-08-14","tags":["oss"],"excerpt":"Getting started in open source.","image":"/assets/images/post-5.jpg"},
+  {"title":"UI Patterns","slug":"2025-08-13-ui","date":"2025-08-13","tags":["ui"],"excerpt":"Common UI patterns explained.","image":"/assets/images/post-6.jpg"}
+]

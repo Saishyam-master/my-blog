@@ -1,0 +1,79 @@
+<!-- Example post file. Copy this to create new posts. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Build a Blog | Saishyam</title>
+  <meta name="description" content="One-line teaser for building a blog...">
+  <link rel="canonical" href="https://saishyam-master.github.io/my-blog/posts/2025-08-24-sample.html">
+  <meta property="og:title" content="How to Build a Blog | Saishyam">
+  <meta property="og:description" content="One-line teaser for building a blog...">
+  <meta property="og:image" content="/assets/images/post-1.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Build a Blog | Saishyam">
+  <meta name="twitter:description" content="One-line teaser for building a blog...">
+  <meta name="twitter:image" content="/assets/images/post-1.jpg">
+  <link rel="icon" href="/assets/icons/moon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar container" id="navbar">
+      <div class="brand">Saishyam</div>
+      <ul class="nav-links">
+        <li><a href="../index.html#blog">Blog</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#about">About</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <img src="../assets/icons/moon.svg" alt="Toggle theme" width="24" height="24">
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="post-banner bg-img" style="--bg:url('/assets/images/post-1.jpg')">
+      <div class="post-banner-overlay">
+        <h1 class="post-title">How to Build a Blog</h1>
+        <div class="post-meta">
+          <time datetime="2025-08-24">August 24, 2025</time> &bull; <span id="reading-time">2 min read</span>
+        </div>
+        <div class="post-tags">
+          <span class="tag">tutorial</span>
+        </div>
+      </div>
+    </section>
+    <article class="post-body container">
+      <h2>Section Heading</h2>
+      <p>This is a sample blog post. Replace this content with your own. You can use <strong>bold</strong>, <em>italic</em>, and <a href="#">links</a>.</p>
+      <pre><code>// Example code block
+function helloWorld() {
+  console.log('Hello, world!');
+}
+</code></pre>
+      <blockquote>This is a blockquote. Use it for quotes or callouts.</blockquote>
+      <figure>
+        <img src="/assets/images/post-2.jpg" alt="Sample figure" width="600" height="340" loading="lazy">
+        <figcaption>Sample figure caption.</figcaption>
+      </figure>
+      <ul>
+        <li>List item one</li>
+        <li>List item two</li>
+      </ul>
+      <nav class="post-nav">
+        <a href="#" class="prev">← Previous</a>
+        <a href="#" class="next">Next →</a>
+      </nav>
+    </article>
+  </main>
+  <footer class="footer container">
+    <div>© <span id="year"></span> Saishyam &mdash; <a href="../index.html#blog">Blog</a> &bull; <a href="../index.html#projects">Projects</a> &bull; <a href="../index.html#about">About</a></div>
+    <div class="muted">Images are placeholders.</div>
+    <a href="#top" class="back-to-top" id="back-to-top" aria-label="Back to top">↑</a>
+  </footer>
+</body>
+</html>
